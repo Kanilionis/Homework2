@@ -1,16 +1,44 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
   }
   
   li {
     display: inline;
     outline: solid black 1px;
-    margin: 10px;
-    padding: 2px;
+    margin: 15px;
+    padding: 3px;
+    font-family: 'Montserrat Alternates', sans-serif;
   }
 
 a {
     color: magenta;
 }
+
+div.row > div {
+    outline: 2px dotted black;
+    padding: 10px;
+    text-align: left;
+  }
+
+  div.row > div, header {
+    text-align: left;
+}
+
+.form-group.form-check.form-check-label.btn {
+  font-family: 'Monserrat Alternates', sans-serif;
+}
+
+  img {
+    width: auto;
+    height: 30%;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  font-family: 'Monoton', cursive;

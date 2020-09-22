@@ -1,23 +1,36 @@
-ul {
+  
+  body {
+    background: url("IMG_4594.jpeg") no-repeat fixed left;
+    background-size: 110% 150%;
+  }
+
+  h1 {
+    font-family: 'Monoton', cursive;
+    color: white; 
+    text-align: center;
+    font-size: 100px;
+  }
+
+  ul {
     list-style-type: none;
     margin: 10;
     padding: 0;
+    text-align: center;
   }
   
   li {
     display: inline;
-    outline: solid black 1px;
+    outline: solid magenta 1px;
     margin: 15px;
     padding: 3px;
     font-family: 'Montserrat Alternates', sans-serif;
   }
 
 a {
-    color: magenta;
+    color: white;
 }
 
-div.row > div {
-    outline: 2px dotted black;
+div.row > nav {
     padding: 10px;
     text-align: left;
   }
@@ -26,14 +39,17 @@ div.row > div {
     text-align: left;
 }
 
-.form-group.form-check.form-check-label.btn {
-  font-family: 'Monserrat Alternates', sans-serif;
+button {
+  color: magenta;
 }
 
-  img {
-    width: auto;
-    height: 30%;
-  }
+form {
+  color: white;
+  font-family: 'Monserrat Alternates', sans-serif;
+  padding: 20px;
+  margin: 20px;
+}
+
 
   .clearfix::after {
     content: " ";
@@ -42,3 +58,5 @@ div.row > div {
   }
 
   font-family: 'Monoton', cursive;
+
+

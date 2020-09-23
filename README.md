@@ -21,4 +21,4 @@
 	
 		
 * **Technical Description** 
-	* of your project like- Installation, Setup, How to contribute.
+	* n/a

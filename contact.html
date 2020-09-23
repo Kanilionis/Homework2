@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="contact-bg">
     <h1>contact</h1>
     <!-- <h1>katie anilionis</h1>
         <h2>contact</h2> -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row">
            <nav class="col-lg-12 col-m-3">
              <ul>
@@ -25,37 +25,67 @@
            </nav>
           </div>
         </div>
-      </div> 
-    <form>
+      </div> -->
+      
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="topnav" id="myTopnav">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="contact.html">contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+    <form class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-9">
                 <label for="formGroupExampleInput">Name</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="e.g. Ian Rogers">
             </div>
           </div>
           <br>
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-9">
                 <label for="formGroupExampleInput2">Email Address</label>
                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="e.g. irogers@centleasing.com">
             </div>
           </div>
           <br>
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-6 col-md-7 col-sm-8 col-xs-9">
                 <label for="formGroupExampleInput2">Message</label>
                 <textarea type="text" class="form-control" id="formGroupExampleInput2" rows="3" placeholder="Type your message here..."></textarea> 
             </div>
             </div>  
             <br>
     <form class="row">
-        <div class="col-10">
+        <div class="col-12">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check here to be added to our email list and stay up to date on the latest from Katie Anilionis</label>
           </div>
           <br>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+      
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
